@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>我们常用的图片格式到底有什么区别？ | 老贾的博客</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="今天在整理图片工具类的时候，翻看了一下Android关于图片部分压缩格式的源码。里面枚举了3种图片压缩格式：JPEG,PNG, WEBP;
+
+JPEG  这种是我们最常见的类型之一，当然，这种格式你可能听得不多，但是他有另外一种扩展名，你一定听过: jpg 。
+  那么好好的jpeg为啥非要叫jpg呢？听我给你慢慢道来。
+  JPEG是一种针对相片图像而广泛使用的一种有损压缩标准方法。是联合">
+<meta property="og:type" content="article">
+<meta property="og:title" content="我们常用的图片格式到底有什么区别？">
+<meta property="og:url" content="http://yoursite.com/2017/03/27/我们常用的图片格式到底有什么区别？/index.html">
+<meta property="og:site_name" content="老贾的博客">
+<meta property="og:description" content="今天在整理图片工具类的时候，翻看了一下Android关于图片部分压缩格式的源码。里面枚举了3种图片压缩格式：JPEG,PNG, WEBP;
+
+JPEG  这种是我们最常见的类型之一，当然，这种格式你可能听得不多，但是他有另外一种扩展名，你一定听过: jpg 。
+  那么好好的jpeg为啥非要叫jpg呢？听我给你慢慢道来。
+  JPEG是一种针对相片图像而广泛使用的一种有损压缩标准方法。是联合">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/2182065-6fe009c6092d4c0d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:updated_time" content="2017-03-27T07:06:49.194Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="我们常用的图片格式到底有什么区别？">
+<meta name="twitter:description" content="今天在整理图片工具类的时候，翻看了一下Android关于图片部分压缩格式的源码。里面枚举了3种图片压缩格式：JPEG,PNG, WEBP;
+
+JPEG  这种是我们最常见的类型之一，当然，这种格式你可能听得不多，但是他有另外一种扩展名，你一定听过: jpg 。
+  那么好好的jpeg为啥非要叫jpg呢？听我给你慢慢道来。
+  JPEG是一种针对相片图像而广泛使用的一种有损压缩标准方法。是联合">
+<meta name="twitter:image" content="http://upload-images.jianshu.io/upload_images/2182065-6fe009c6092d4c0d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+  
+    <link rel="alternate" href="/atom.xml" title="老贾的博客" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">老贾的博客</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="搜索"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-我们常用的图片格式到底有什么区别？" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/03/27/我们常用的图片格式到底有什么区别？/" class="article-date">
+  <time datetime="2017-03-27T07:05:16.804Z" itemprop="datePublished">2017-03-27</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      我们常用的图片格式到底有什么区别？
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <blockquote>
+<p>  今天在整理图片工具类的时候，翻看了一下Android关于图片部分压缩格式的源码。里面枚举了3种图片压缩格式：JPEG,PNG, WEBP;</p>
+</blockquote>
+<h2 id="JPEG"><a href="#JPEG" class="headerlink" title="JPEG"></a>JPEG</h2><p>  这种是我们最常见的类型之一，当然，这种格式你可能听得不多，但是他有另外一种扩展名，你一定听过: <strong>jpg</strong> 。</p>
+<p>  那么好好的jpeg为啥非要叫jpg呢？听我给你慢慢道来。</p>
+<p>  JPEG是一种针对相片图像而广泛使用的一种有损压缩标准方法。是<strong>联合图像专家小组</strong>的简称<strong>Joint Photographic Experts Group</strong>。   此团队创立于1986年，1992年发布了JPEG的标准而在1994年获得了ISO 10918-1的认定。</p>
+<p>  以下是有道词典翻译出来的，注意音标：</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/2182065-6fe009c6092d4c0d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="有道词典翻译"></p>
+<p>  有木有感觉很像J-P-G。</p>
+<p>  之所以常用，是因为它在图片压缩领域，有着其他格式都无法比拟的优势，尤其是对大图的压缩，所以你能看到的很多照片都是.jpg格式。</p>
+<h2 id="PNG"><a href="#PNG" class="headerlink" title="PNG"></a>PNG</h2><p>  出生的最晚的，通常也是技术含量最高的。</p>
+<p>  1996年出生，<strong>无损压缩</strong>，最常见的使用格式是 256 索引色（PNG-8）和 24 bit 真彩色（PNG-24） <strong>(只是最常见的，其实支持的更多)</strong> ，支持 full alpha 通道（256 级可调半透明色）。</p>
+<p>  比如，你用QQ截图，或者其他小图，你会发现，PNG不仅无损，而且比jpg更小。</p>
+<p>  而且在防锯齿方面，PNG也是最厉害的，其他两个都比不了。</p>
+<h2 id="GIF"><a href="#GIF" class="headerlink" title="GIF"></a>GIF</h2><p>  出生最早的老大哥，生于1987年。</p>
+<p>  我们见到的好多动图就是这种格式，和后起之秀PNG一样，是一种无损压缩，还支持单一透明色，但是有心的话，你会注意到，这种格式一般都不咋清晰，是因为它只支持256种颜色(8bit彩色),而JPEG支持24bit真彩色（大概17万左右吧），PNG更屌，他俩支持的，PNG都能支持，他俩不支持的，PNG也支持。</p>
+<p>  最主要的，也是区别和JPEG和PNG的是，目前为止，这几种图片格式中，<strong>只有它支持动画</strong><br>。</p>
+<h2 id="对比"><a href="#对比" class="headerlink" title="对比"></a>对比</h2><p>那么问题来了，你说了半天，那我们到底该用哪个？</p>
+<h4 id="JPEG-1"><a href="#JPEG-1" class="headerlink" title="JPEG"></a>JPEG</h4><p>图片压缩，尤其是大图，就用它，其他都比不上它。</p>
+<h4 id="PNG-1"><a href="#PNG-1" class="headerlink" title="PNG"></a>PNG</h4><p>屏幕截图，图片处理，个人认为是目前为止，除了照片大图不如JPEG，动画不如GIF之外，所有图片中最好的格式就PNG了。<br>(本人程序猿，不管开发网页还是Android，IOS，统一PNG格式)</p>
+<h4 id="GIF-1"><a href="#GIF-1" class="headerlink" title="GIF"></a>GIF</h4><p>动图就用它吧，上面那俩都不支持，起码到目前为止不支持。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/03/27/我们常用的图片格式到底有什么区别？/" data-id="cj0rruv71000208xhgnxqa10g" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2017/03/20/AES,MD5,RSA,SHA系列等各类加密解读/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">AES,MD5,RSA,SHA系列等各类加密解读</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">三月 2017</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最新文章</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2017/03/27/我们常用的图片格式到底有什么区别？/">我们常用的图片格式到底有什么区别？</a>
+          </li>
+        
+          <li>
+            <a href="/2017/03/20/AES,MD5,RSA,SHA系列等各类加密解读/">AES,MD5,RSA,SHA系列等各类加密解读</a>
+          </li>
+        
+          <li>
+            <a href="/2017/03/16/Hexo环境搭建/">Hexo环境搭建</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 TaoYuan<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>
