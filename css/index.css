@@ -11,7 +11,7 @@ html{
 body{
     background:#fff;
     width: 100%;
-    /*font-family:'Rubik','微软雅黑',sans-serif;*/
+    font-family:'Rubik','楷体',sans-serif;
     font-family: Baskerville, Georgia, "Liberation Serif", "Kaiti SC", STKaiti, "AR PL UKai CN", "AR PL UKai HK", "AR PL UKai TW", "AR PL UKai TW MBE", "AR PL KaitiM GB", KaiTi, KaiTi_GB2312, DFKai-SB, "TW\-Kai", serif;
 }
 
@@ -61,7 +61,7 @@ canvas{
 #subtitle{
     font-size:1.5rem;
     color:#c1b9c2;
-    font-family: '微软雅黑';
+    font-family: '楷体';
 }
 #links{
     left:-3rem;
@@ -85,6 +85,22 @@ canvas{
     height:1.8rem;
     border-radius:50%;
 }
+#jianshu{
+    visibility: hidden;
+    margin-top:0.5rem;
+    width:1.8rem;
+    height:1.8rem;
+    border-radius:50%;
+}
+#csdn{
+    visibility: hidden;
+    margin-top:0.5rem;
+    width:1.8rem;
+    height:1.8rem;
+    border-radius:50%;
+}
+
+
 .indexTitles{
     font-size:1.4rem;
     text-align: left;
