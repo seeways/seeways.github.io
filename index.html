@@ -61,6 +61,53 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-git上传Github设置忽略列表" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/04/07/git上传Github设置忽略列表/" class="article-date">
+  <time datetime="2017-04-07T02:22:09.400Z" itemprop="datePublished">2017-04-07</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/04/07/git上传Github设置忽略列表/">git上传Github设置忽略列表</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <blockquote>
+<p>一般关联Github后，有的会自动设置忽略,如果没有，尝试一下方法</p>
+</blockquote>
+<ul>
+<li>在工程目录下新建 <code>.gitignore</code> 文件</li>
+<li><p>加入以下忽略文件</p>
+  <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">*.iml</div><div class="line">.gradle</div><div class="line">/local.properties</div><div class="line">/.idea/workspace.xml</div><div class="line">/.idea/libraries</div><div class="line">.DS_Store</div><div class="line">/build</div><div class="line">/captures</div><div class="line">.externalNativeBuild</div></pre></td></tr></table></figure>
+</li>
+<li><p>如果你有一些自建文件不想上传的，也可以写到忽略列表中，会存储到本地库，不会 <code>push</code> 到GitHub。</p>
+</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/04/07/git上传Github设置忽略列表/" data-id="cj177psxq0002eoxhpd2qvnom" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-Android Studio和IDEA实用插件" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2017/03/31/Android Studio和IDEA实用插件/" class="article-date">
@@ -71,9 +118,19 @@
   <div class="article-inner">
     
     
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/03/31/Android Studio和IDEA实用插件/">Android Studio和IDEA实用插件</a>
+    </h1>
+  
+
+      </header>
+    
     <div class="article-entry" itemprop="articleBody">
       
-        <p><strong>本文插件适用Android Studio和IDEA</strong></p>
+        <h1 id="Readme"><a href="#Readme" class="headerlink" title="Readme"></a>Readme</h1><p><strong>本文插件适用Android Studio和IDEA</strong></p>
 <h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>   一个我用了很久的插件，一直觉得是大众插件，在1天内，先后有Android的问我，下午又是几个java同事问，觉得好神奇，于是我觉得可能还有其他插件未必所有人都知道，问了几个同事，很多都不为人知，遂有此文。</p>
 <h2 id="一秒钟生成JavaBean—GsonFormat"><a href="#一秒钟生成JavaBean—GsonFormat" class="headerlink" title="一秒钟生成JavaBean—GsonFormat"></a>一秒钟生成JavaBean—GsonFormat</h2><ul>
 <li><p>安装<br><img src="http://upload-images.jianshu.io/upload_images/2182065-3de4314623a32d2c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="GsonFormat"></p>
@@ -107,11 +164,13 @@
 <p><img src="http://upload-images.jianshu.io/upload_images/2182065-a81ca72a4e7964bd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="效果"></p>
 <h2 id="甩掉美工自己搞"><a href="#甩掉美工自己搞" class="headerlink" title="甩掉美工自己搞"></a>甩掉美工自己搞</h2><p>常用图片基本都有了，颜色大小神马的都可以自定义，<br><img src="http://upload-images.jianshu.io/upload_images/2182065-61309c40e4756bea.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="自己搞"></p>
 <p>以上几个是我常用的，icon生成器主要是自己搞demo的时候用，做项目还真离不开美工</p>
+<hr>
+<p><a href="#readme">回到顶部</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/03/31/Android Studio和IDEA实用插件/" data-id="cj0xl6a9f0000pwxhjkkbbdxn" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/03/31/Android Studio和IDEA实用插件/" data-id="cj177psxj0000eoxhdj1sx7os" class="article-share-link">Share</a>
       
       
     </footer>
@@ -143,8 +202,8 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <blockquote>
-<p>  今天在整理图片工具类的时候，翻看了一下Android关于图片部分压缩格式的源码。里面枚举了3种图片压缩格式：JPEG,PNG, WEBP;</p>
+        <h1 id="Readme"><a href="#Readme" class="headerlink" title="Readme"></a>Readme</h1><blockquote>
+<p>  今天在整理图片工具类的时候，翻看了一下Android关于图片部分压缩格式的源码。里面枚举了3种图片压缩格式：JPEG,PNG, WEBP;WEBP是google的自研的一种格式，非大众，不做解读</p>
 </blockquote>
 <h2 id="JPEG"><a href="#JPEG" class="headerlink" title="JPEG"></a>JPEG</h2><p>  这种是我们最常见的类型之一，当然，这种格式你可能听得不多，但是他有另外一种扩展名，你一定听过: <strong>jpg</strong> 。</p>
 <p>  那么好好的jpeg为啥非要叫jpg呢？听我给你慢慢道来。</p>
@@ -164,11 +223,13 @@
 <h4 id="JPEG-1"><a href="#JPEG-1" class="headerlink" title="JPEG"></a>JPEG</h4><p>图片压缩，尤其是大图，就用它，其他都比不上它。</p>
 <h4 id="PNG-1"><a href="#PNG-1" class="headerlink" title="PNG"></a>PNG</h4><p>屏幕截图，图片处理，个人认为是目前为止，除了照片大图不如JPEG，动画不如GIF之外，所有图片中最好的格式就PNG了。<br>(本人程序猿，不管开发网页还是Android，IOS，统一PNG格式)</p>
 <h4 id="GIF-1"><a href="#GIF-1" class="headerlink" title="GIF"></a>GIF</h4><p>动图就用它吧，上面那俩都不支持，起码到目前为止不支持。</p>
+<hr>
+<p><a href="#readme">回到顶部</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/03/27/我们常用的图片格式到底有什么区别？/" data-id="cj0xl6a9o0003pwxhnqf2qihl" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/03/27/我们常用的图片格式到底有什么区别？/" data-id="cj177psxs0003eoxhybctgpfz" class="article-share-link">Share</a>
       
       
     </footer>
@@ -200,7 +261,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>今天整理了一下加密方面的工具类，顺便把它们共享出来。</p>
+        <h1 id="Readme"><a href="#Readme" class="headerlink" title="Readme"></a>Readme</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>今天整理了一下加密方面的工具类，顺便把它们共享出来。</p>
 <p>GitHub地址：<a href="https://github.com/seeways/AndroidUtils" target="_blank" rel="external">https://github.com/seeways/AndroidUtils</a></p>
 <p>由于工作原因，经常会用到加密相关的，虽然用过很多次了，但是一直都没有整理过相关资料，整理也是给领导看看，除了常用的，基本都是翻翻以前的代码，或者google。</p>
 <p>上周用到了，今天又用到了，所以决心整理一下，方便自己，整理过程中，觉得可能别人也会用到，就顺便扩展了一下，怕众人和我刚开始一样懵逼，所以特写此文，亦是说明。</p>
@@ -257,11 +318,13 @@
 <p>符合(大天朝)法律的私钥必须通过硬件介质来承载证书，就是我们说的Key，U盾等等。</p>
 <h3 id="BASE64"><a href="#BASE64" class="headerlink" title="BASE64"></a>BASE64</h3><p>刚在整理资料的时候，看到有的搜索资料上把这个也列上去了，我想说的是，即使是抄，也负点责任好不好？Base64啥时候成加密算法了？？</p>
 <p>特此说明一下，Base64只是一种常见的编码方式，不是加密算法！！！</p>
+<hr>
+<p><a href="#readme">回到顶部</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/03/20/AES,MD5,RSA,SHA系列等各类加密解读/" data-id="cj0xl6a9k0001pwxhxqh7hd31" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/03/20/AES,MD5,RSA,SHA系列等各类加密解读/" data-id="cj177psxt0004eoxh5vq9b39d" class="article-share-link">Share</a>
       
       
     </footer>
@@ -293,7 +356,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="准备工具"><a href="#准备工具" class="headerlink" title="准备工具"></a>准备工具</h2><h4 id="1-Node"><a href="#1-Node" class="headerlink" title="1. Node"></a>1. Node</h4><h4 id="2-Git"><a href="#2-Git" class="headerlink" title="2. Git"></a>2. Git</h4><h4 id="3-了解hexo"><a href="#3-了解hexo" class="headerlink" title="3. 了解hexo"></a>3. <a href="https://hexo.io/" target="_blank" rel="external">了解hexo</a></h4><h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><h4 id="1-执行命令安装"><a href="#1-执行命令安装" class="headerlink" title="1. 执行命令安装"></a>1. 执行命令安装</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install -g hexo</div></pre></td></tr></table></figure>
+        <h1 id="Readme"><a href="#Readme" class="headerlink" title="Readme"></a>Readme</h1><h2 id="准备工具"><a href="#准备工具" class="headerlink" title="准备工具"></a>准备工具</h2><h4 id="1-Node"><a href="#1-Node" class="headerlink" title="1. Node"></a>1. Node</h4><h4 id="2-Git"><a href="#2-Git" class="headerlink" title="2. Git"></a>2. Git</h4><h4 id="3-了解hexo"><a href="#3-了解hexo" class="headerlink" title="3. 了解hexo"></a>3. <a href="https://hexo.io/" target="_blank" rel="external">了解hexo</a></h4><h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><h4 id="1-执行命令安装"><a href="#1-执行命令安装" class="headerlink" title="1. 执行命令安装"></a>1. 执行命令安装</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install -g hexo</div></pre></td></tr></table></figure>
 <h4 id="2-执行初始化命令"><a href="#2-执行初始化命令" class="headerlink" title="2. 执行初始化命令"></a>2. 执行初始化命令</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo init</div></pre></td></tr></table></figure>
 <h4 id="3-生成静态页面"><a href="#3-生成静态页面" class="headerlink" title="3. 生成静态页面"></a>3. 生成静态页面</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div><div class="line"></div><div class="line">//简写 hexo g</div></pre></td></tr></table></figure>
 <h4 id="4-启动本地服务"><a href="#4-启动本地服务" class="headerlink" title="4. 启动本地服务"></a>4. 启动本地服务</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo server </div><div class="line">//简写 hexo s</div></pre></td></tr></table></figure>
@@ -303,11 +366,13 @@
 <h2 id="编写流程"><a href="#编写流程" class="headerlink" title="编写流程"></a>编写流程</h2><p>你可以随便编写文档</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo g  </div><div class="line">hexo d</div></pre></td></tr></table></figure>
 <p>推荐用github自带的 git shell，反正我用git bash提示我权限不足，不知道什么情况</p>
+<hr>
+<p><a href="#readme">回到顶部</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/03/16/Hexo环境搭建/" data-id="cj0xl6a9m0002pwxhllj7a37w" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/03/16/Hexo环境搭建/" data-id="cj177psxo0001eoxhyhtf9dtc" class="article-share-link">Share</a>
       
       
     </footer>
@@ -334,7 +399,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">归档</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">三月 2017</a></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/04/">四月 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/03/">三月 2017</a></li></ul>
     </div>
   </div>
 
@@ -347,7 +412,11 @@
       <ul>
         
           <li>
-            <a href="/2017/03/31/Android Studio和IDEA实用插件/">(no title)</a>
+            <a href="/2017/04/07/git上传Github设置忽略列表/">git上传Github设置忽略列表</a>
+          </li>
+        
+          <li>
+            <a href="/2017/03/31/Android Studio和IDEA实用插件/">Android Studio和IDEA实用插件</a>
           </li>
         
           <li>
