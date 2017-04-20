@@ -85,20 +85,6 @@ canvas{
     height:1.8rem;
     border-radius:50%;
 }
-#jianshu{
-    visibility: hidden;
-    margin-top:0.5rem;
-    width:1.8rem;
-    height:1.8rem;
-    border-radius:50%;
-}
-#csdn{
-    visibility: hidden;
-    margin-top:0.5rem;
-    width:1.8rem;
-    height:1.8rem;
-    border-radius:50%;
-}
 
 
 .indexTitles{

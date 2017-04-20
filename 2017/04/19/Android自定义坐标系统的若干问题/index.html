@@ -1,0 +1,16 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="yes" name="apple-touch-fullscreen"><meta content="telephone=no,email=no" name="format-detection"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"><link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"><link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet"><script src="https://use.fontawesome.com/adaf0e149c.js"></script><link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.6.0/styles/monokai_sublime.min.css"><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="/css/post.css"><title>老贾的博客</title><script src="/js/googleAnalytics.js"></script></head><body><div id="postContainer"><div id="postTop"><h4 id="logo">不断探索  保持好奇  做自己</h4><br><br><h2 id="postTitle">Android实用插件</h2><br><span aria-hidden="true" class="postTime fa fa-calendar">2017-4-19</span><span aria-hidden="true" class="postTags fa fa-tags">&nbsp;Android</span><br><br></div><section id="articleDiv"><p><h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><ul></p>
+<p><li>维持文档比例不变形</li></p>
+<p><li>全部展示出来</li></p>
+<p><li>上面有个圆形可移动控件，取中心点坐标</li></p>
+<p><li>圆形控件会根据文档的缩放比例进行缩放</li></p>
+<p><li>取控件坐标给服务器，并由服务器生成控件在源文档的位置</li><br></ul></p>
+<p><h2 id="涉及核心知识点"><a href="#涉及核心知识点" class="headerlink" title="涉及核心知识点"></a>涉及核心知识点</h2><ul></p>
+<p><li><h4 id="Matrix-矩阵"><a href="#Matrix-矩阵" class="headerlink" title="Matrix 矩阵"></a>Matrix 矩阵</h4></li></p>
+<p><li><h4 id="GestureDetector-手势控制"><a href="#GestureDetector-手势控制" class="headerlink" title="GestureDetector 手势控制"></a>GestureDetector 手势控制</h4></li></p>
+<p><li><h4 id="ScaleGestureDetector-手势缩放"><a href="#ScaleGestureDetector-手势缩放" class="headerlink" title="ScaleGestureDetector  手势缩放"></a>ScaleGestureDetector  手势缩放</h4></li></p>
+<p><li><h4 id="事件分发机制"><a href="#事件分发机制" class="headerlink" title="事件分发机制"></a>事件分发机制</h4></li></p>
+<p><li><h4 id="控件层级"><a href="#控件层级" class="headerlink" title="控件层级"></a>控件层级</h4></li></p>
+<p><li><h4 id="坐标体系"><a href="#坐标体系" class="headerlink" title="坐标体系"></a>坐标体系</h4></li></p>
+<p><li><h4 id="其他零散知识点"><a href="#其他零散知识点" class="headerlink" title="其他零散知识点"></a>其他零散知识点</h4></li><br></ul></p>
+<p><h2 id="问题集"><a href="#问题集" class="headerlink" title="问题集"></a>问题集</h2><h3 id="将移动控件置于最上层"><a href="#将移动控件置于最上层" class="headerlink" title="将移动控件置于最上层"></a>将移动控件置于最上层</h3><pre><code><code>view.bringToFront();</code><br></code></pre><h3 id="控件不移动怎么办"><a href="#控件不移动怎么办" class="headerlink" title="控件不移动怎么办"></a>控件不移动怎么办</h3><pre><code>- 把事件消耗掉就可以了<code>return true</code><br></code></pre></p>
+</section></div><script src="/js/jquery.min.js"></script><script src="/js/highlight.min.js"></script><script src="/js/start.js"></script></body></html>
